@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.main {
+  background: linear-gradient(to bottom right, lightblue, lightgreen, lightyellow);
+  min-height: 100vh;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  font-family: cursive;
+  font-size: 2.5em;
+}
+
+.author {
+  display: block;
+  font-family: serif;
+  font-size: .75em;
+}
+
+button {
+  background-color: rgba(100, 100, 100, .1);
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: serif;
+}
+
+.addenda, .filter {
+  display: inline-block;
+  padding: 20px;
+}
+
+.addenda input {
+  width: 250px;
+}
